@@ -24,7 +24,7 @@ Other files: `style.css` (styles for all pages), `part1.js`, `dom.js`, `events.j
 
 ## Live site
 
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+https://asleyvv.github.io/web-assignment-6/
 
 ## Notes
 
