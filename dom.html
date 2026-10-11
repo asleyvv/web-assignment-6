@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 2 - DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Part 1: Intro</a>
+    <a href="dom.html" class="active">Part 2: DOM</a>
+    <a href="events.html">Part 3: Events</a>
+    <a href="todo.html">Part 4: To-Do</a>
+  </nav>
+
+  <main>
+    <h1>Part 2. DOM Manipulation</h1>
+    <p class="who">Duman Zhanybekov, group SE-2530</p>
+
+    <div class="card">
+      <h3>Task 2. Changing Content</h3>
+      <p id="para">This is the original text. Click the button to change it.</p>
+      <button id="textBtn">Change text</button>
+    </div>
+
+    <div class="card">
+      <h3>Task 3. Changing Styles</h3>
+      <div id="box">This is a block. Use the buttons to change its background color and font size.</div>
+      <button id="colorBtn">Change color</button>
+      <button id="sizeBtn">Change font size</button>
+    </div>
+
+    <div class="card">
+      <h3>Task 4. Creating &amp; Removing Elements</h3>
+      <ul id="items">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <button id="addBtn">Add Item</button>
+      <button id="removeBtn" class="red">Remove Item</button>
+      <p class="note" id="listMsg"></p>
+    </div>
+  </main>
+
+  <script src="dom.js"></script>
+</body>
+</html>
